@@ -33,7 +33,7 @@ jobs:
     - name: training Model
       run: |
        python train.py
-       ls -la artifact
+       ls -la artifacts
 
     - name: uploading artifacts
       uses: actions/upload-artifact@v4
